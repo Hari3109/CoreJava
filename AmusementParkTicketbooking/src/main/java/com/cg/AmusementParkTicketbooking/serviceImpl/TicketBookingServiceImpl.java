@@ -54,17 +54,18 @@ public class TicketBookingServiceImpl implements TicketBookingService{
 		ticketBooking.setTotalPrice(totalPrice);
 		ticketRepo.save(ticketBooking);
 		return bookingDto;
-		
-		
-//		Customer user=custRepo.findById(bookingDto.getCustomerId()).get();
-//		Activity activity=actRepo.findByActivityId(bookingDto.getActivities()).get();
-//		BookingDto dto=new BookingDto();
-//		dto.setActivities(dto.getActivities());
-//		dto.setCustomerId(bookingDto.getCustomerId());
-//		dto.setDate(bookingDto.getDate());
-//		return dto;
-		
-		
+	}
+
+	@Override
+	public String ticketcancelationstatus(int ticketBookingId) {
+		ticketRepo.findByticketBookingId(ticketBookingId);
+		return "Tickect Cancelled";
+	}
+
+	@Override
+	public String bookingStatus(int ticketBookingId) {
+		ticketRepo.findByticketBookingId(ticketBookingId);
+		return "Ticket Booked Successfully";
 	}
 	
 }

@@ -22,14 +22,6 @@ public class AdminController {
 	public Admin addAdmin(@RequestBody Admin admin) {
 		return adminService.addAdmin(admin);
 	} 
-//	@GetMapping("/getAllActivitySchedule/{ticketBookId}")
-//	public List<TicketBooking> getAllActivities(@PathVariable ("ticketBookId") int ticketBookId){
-//		return adminService.getAllActivities(ticketBookId);
-//	}
-//	@GetMapping("/getActivitiesByDate")
-//	public List<ActivitySchedule> getActivitiesByDate(@RequestBody Date date){
-//		return adminService.getActivitiesDatewise(date);
-//	}
 	@PutMapping("/updateAdmin/{customerId}")
 	public Admin updateAdmin(@PathVariable("adminId")int adminId ,@RequestBody Admin admin) {
 		return adminService.updateAdmin(adminId,admin);

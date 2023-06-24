@@ -14,10 +14,9 @@ import com.cg.AmusementParkTicketbooking.service.ActitvityScheduleService;
 public class ActivityScheduleServiceImpl implements ActitvityScheduleService{
 @Autowired
 private ActivityScheduleRepository Repo;
-	
+
 @Override
-public List<ActivitySchedule> showAllActivities() {
-	
+public List<ActivitySchedule> showAllActivities() {	
 	return Repo.findAll();
 }
 

@@ -12,6 +12,8 @@ public interface TicketBookingRepository extends JpaRepository<TicketBooking,Int
 
 	List<TicketBooking> findActivityByTicketBookingId(int ticketBookingId);
 
+	void findByticketBookingId(int ticketBookingId);
+
 	
 
 }

@@ -9,4 +9,8 @@ import com.cg.AmusementParkTicketbooking.entities.TicketBooking;
 public interface TicketBookingService {
 public BookingDto bookTicketService(BookingDto bookingDto)throws CustomerNotFoundException,ActivityNotFoundException;
 public TicketBooking cancelTicket(int ticketBookingId) throws TickectBookingNotFoundException;
+public String ticketcancelationstatus(int ticketBookingId);
+public String bookingStatus(int ticketBookingId);
+
+
 }

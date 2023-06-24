@@ -16,7 +16,7 @@ public class AdminServiceImpl implements AdminService {
 	private AdminRepository adminRepo;
 //	@Autowired
 //	private TicketBookingRepository ticketRepo;
-//
+
 	@Override
 	public Admin addAdmin(Admin admin) {
 		Admin a=adminRepo.save(admin);
