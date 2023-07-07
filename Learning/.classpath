@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.149.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/io/github/classgraph/classgraph/4.8.149/classgraph-4.8.149-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.github.classgraph"/>
+			<attribute name="maven.artifactId" value="classgraph"/>
+			<attribute name="maven.version" value="4.8.149"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/Downloads/apache-tomcat-9.0.71-windows-x64/apache-tomcat-9.0.71/lib/ecj-4.20.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="https://tomcat.apache.org/tomcat-9.0-doc/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/com/google/guava/guava/16.0/guava-16.0.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/com/google/guava/guava/16.0/guava-16.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.google.guava"/>
+			<attribute name="maven.artifactId" value="guava"/>
+			<attribute name="maven.version" value="16.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/com/google/guava/guava/19.0/guava-19.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.google.guava"/>
+			<attribute name="maven.artifactId" value="guava"/>
+			<attribute name="maven.version" value="19.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/Downloads/hibernate_jpa jars-20230120T062512Z-001/hibernate_jpa jars/hibernate-core-5.4.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.6.14.Final/71e407089b71ed7c6e99385fd851c308fed7be44/hibernate-core-5.6.14.Final.jar" sourcepath="C:/Users/HSARVASU/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.6.14.Final/7521bf0fd840aee5bdddefe1e0e85801cc55390d/hibernate-core-5.6.14.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.2/4c21029217adf07e4c0d0c5e192b6bf610c94bdc/junit-jupiter-api-5.8.2.jar" sourcepath="C:/Users/HSARVASU/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.8.2/429d353563c5fb35a3d47076bedbf75161e976c2/junit-jupiter-api-5.8.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/org/hibernate/hibernate-core/5.6.15.Final/hibernate-core-5.6.15.Final-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.hibernate"/>
+			<attribute name="maven.artifactId" value="hibernate-core"/>
+			<attribute name="maven.version" value="5.6.15.Final"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.junit.jupiter"/>
+			<attribute name="maven.artifactId" value="junit-jupiter-api"/>
+			<attribute name="maven.version" value="5.8.2"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/com/github/andrewoma/dexx/dexx-collections/0.2/dexx-collections-0.2-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.github.andrewoma.dexx"/>
+			<attribute name="maven.artifactId" value="dexx-collections"/>
+			<attribute name="maven.version" value="0.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/org/hibernate/hibernate-core/5.6.4.Final/hibernate-core-5.6.4.Final.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/org/hibernate/hibernate-core/5.6.4.Final/hibernate-core-5.6.4.Final-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.hibernate"/>
+			<attribute name="maven.artifactId" value="hibernate-core"/>
+			<attribute name="maven.version" value="5.6.4.Final"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/HSARVASU/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4.jar" sourcepath="C:/Users/HSARVASU/.m2/repository/com/google/protobuf/protobuf-java/3.11.4/protobuf-java-3.11.4-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.google.protobuf"/>
+			<attribute name="maven.artifactId" value="protobuf-java"/>
+			<attribute name="maven.version" value="3.11.4"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
